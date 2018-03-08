@@ -27,12 +27,18 @@
 <!-- Bootstrap core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
+<!-- Bootstrap Litra theme -->
+<link href="${css}/bootstrap-litra-theme.css" rel="stylesheet">
+
+<!-- Bootstrap DataTables -->
+<link href="${css}/dataTables.bootstrap4.css" rel="stylesheet"> 
+
 <!-- Custom CSS -->
 <link href="${css}/myapp.css" rel="stylesheet">
 
 
-<!-- Bootstrap Litra theme -->
-<link href="${css}/bootstrap-litra-theme.css" rel="stylesheet">
+
+
 
 </head>
 
@@ -68,7 +74,15 @@
 
 		<!-- Bootstrap core JavaScript -->
 		<script src="${js}/jquery.min.js"></script>
+		
+		<!-- bootstrap.bundle plugin -->
 		<script src="${js}/bootstrap.bundle.min.js"></script>
+		
+		<!-- DataTable plugin -->
+		<script src="${js}/jquery.dataTables.js"></script>
+		
+		<!-- DataTable Bootstrap -->
+		<script src="${js}/dataTables.bootstrap4.js"></script>		
 
 		<!-- Self coded javascript -->
 		<script src="${js}/myapp.js"></script>
